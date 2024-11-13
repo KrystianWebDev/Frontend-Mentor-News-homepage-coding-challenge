@@ -1,60 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | News homepage</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | News homepage</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+    </style>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1>w.</h1>
+      <ul class="navbar-options-list">
+        <li>Home</li>
+        <li>New</li>
+        <li>Popular</li>
+        <li>Trending</li>
+        <li>Categories</li>
+      </ul>
+    </nav>
+    <main class="main-content-web3-wrapper">
+      <article class="web3-article">
+        <img
+          src="assets/images/image-web-3-desktop.jpg"
+          class="main-article-image"
+        />
+        <h2 class="web3-header">The Bright Future of Web 3.0?</h2>
+        <p class="web3-paragraph">
+          We dive into the next evolution of the web that claims to put the
+          power of the platforms back into the hands of the people. But is it
+          really fulfilling its promise?
+        </p>
+        <button class="read-more-button">Read more</button>
+        <p class="web3-paragraph-hidden">We take a look at what that means.</p>
+      </article>
+    </main>
+    <section class="new-articles-box">
+      <h2 class="new-box-header">New</h2>
+      <article>
+        <h3 class="new-article-header">Hydrogen VS Electric Cars</h3>
+        <p class="new-article-paragraph">
+          Will hydrogen-fueled cars ever catch up to EVs?
+        </p>
+      </article>
+      <article>
+        <h3 class="new-article-header">The Downsides of AI Artistry</h3>
+        <p class="new-article-paragraph">
+          What are the possible adverse effects of on-demand AI image
+          generation?
+        </p>
+      </article>
+      <article>
+        <h3 class="new-article-header">Is VC Funding Drying Up?</h3>
+        <p class="new-article-paragraph">
+          Private funding by VC firms is down 50% YOY.
+        </p>
+      </article>
+    </section>
+    <section class="articles-row-box">
+      <article class="article-row">
+        <img src="assets/images/image-retro-pcs.jpg" class="article-row-img" />
+        <p class="article-row-number">01</p>
+        <h3 class="article-row-header">Reviving Retro PCs</h3>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
+        <p>What happens when old PCs are given modern upgrades?</p>
+      </article>
 
-  The Bright Future of Web 3.0?
+      <article class="article-row">
+        <img
+          src="assets/images/image-top-laptops.jpg"
+          class="article-row-img"
+        />
+        <p class="article-row-number">02</p>
+        <h3 class="article-row-header">Top 10 Laptops of 2022</h3>
+        <p>Our best picks for various needs and budgets.</p>
+      </article>
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
-
-  Read more
-
-  New 
-
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
-
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
-
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
-
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+      <article class="article-row">
+        <img
+          src="assets/images/image-gaming-growth.jpg"
+          class="article-row-img"
+        />
+        <p class="article-row-number">03</p>
+        <h3 class="article-row-header">The Growth of Gaming</h3>
+        How the pandemic has sparked fresh opportunities.
+      </article>
+    </section>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
 </html>

@@ -1,0 +1,44 @@
+:root {
+  font-family: "Inter", sans-serif; /* Weights: 400,700,800 */
+  --primary-color-soft-orange: hsl(35, 77%, 62%);
+  --primary-color-soft-red: hsl(5, 85%, 63%);
+  --neutral-color-off-white: hsl(36, 100%, 99%);
+  --neutral-color-dark-grayish-blue: hsl(236, 13%, 42%);
+  --neutral-color-very-dark-blue: hsl(240, 100%, 5%);
+}
+body {
+  font-size: 15px; /* default paragraph font size*/
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar-options-list {
+  list-style-type: none; /* getting rid of bullet points*/
+  display: flex;
+}
+/* .main-content-web3-wrapper {
+}
+.web3-article {
+}
+.read-more-button {
+} */
+.web3-paragraph-hidden {
+  display: none;
+}
+/* .new-articles-box {
+}
+.new-box-header {
+}
+.new-article-header {
+}
+.new-article-paragraph {
+}
+.articles-row-box {
+}
+.article-row {
+}
+.article-row-img {
+}
+.article-row-number {
+} */
