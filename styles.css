@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 :root {
-  font-family: 'Inter', sans-serif; /* Weights: 400,700,800 */
+  font-family: "Inter", sans-serif; /* Weights: 400,700,800 */
   --primary-color-soft-orange: hsl(35, 77%, 62%);
   --primary-color-soft-red: hsl(5, 85%, 63%);
   --neutral-color-off-white: hsl(36, 100%, 99%);
@@ -28,27 +29,23 @@
   gap: 30px;
   color: var(--neutral-color-dark-grayish-blue);
 }
-.main-article-image {
+.primary-article-image {
   max-width: 100%;
   grid-column: 1/3;
   grid-row: 2/3;
 }
-/* .web3-article {
-  grid-column: 1/3;
-  grid-row: 3/4;
-  display: inherit;
-} */
-.web3-header {
+
+.primary-header {
   grid-column: 1/2;
   grid-row: 3/4;
   font-size: 55px;
   font-weight: 800;
   color: var(--neutral-color-very-dark-blue);
 }
-.web3-paragraph-button-box {
+.primary-paragraph-button-box {
   padding-left: 10px;
 }
-.web3-paragraph {
+.primary-paragraph {
   font-size: 15px;
   grid-column: 2/3;
   grid-row: 3/4;
@@ -68,7 +65,7 @@
   margin-top: 30px;
   text-transform: uppercase;
 }
-.web3-paragraph-hidden {
+.primary-paragraph-hidden {
   display: none;
   font-size: 15px;
   margin: 0px;
@@ -169,4 +166,11 @@
 .article-row-header:hover {
   cursor: pointer;
   color: var(--primary-color-soft-red);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
