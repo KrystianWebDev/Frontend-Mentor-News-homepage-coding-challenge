@@ -2,10 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
     <link
@@ -16,25 +13,11 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <title>Frontend Mentor | News homepage</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-    </style>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
-    <main class="main-content-wrapper">
+    <header class="navbar-wrapper">
+      <img src="assets/images/logo.svg" alt="Image representing logo" />
       <nav class="navbar">
-        <img src="assets/images/logo.svg" />
         <ul class="navbar-options-list">
           <li>Home</li>
           <li>New</li>
@@ -43,109 +26,106 @@
           <li>Categories</li>
         </ul>
       </nav>
-      <img
-        src="assets/images/image-web-3-desktop.jpg"
-        class="main-article-image"
-      />
-      <!-- <article class="web3-article"> -->
-      <h2 class="web3-header">The Bright Future of Web 3.0?</h2>
+    </header>
+    <main class="main-content-wrapper">
+      <section class="primary-article-wrapper">
+        <img
+          src="assets/images/image-web-3-desktop.jpg"
+          class="primary-article-image"
+          alt=""
+        />
+        <h1 class="primary-header">The Bright Future of Web 3.0?</h1>
 
-      <div class="web3-paragraph-button-box">
-        <p class="web3-paragraph">
-          We dive into the next evolution of the web that claims to
-          put the power of the platforms back into the hands of the
-          people. But is it really fulfilling its promise?
-        </p>
-        <p class="web3-paragraph-hidden">
-          We take a look at what that means.
-        </p>
-        <button class="read-more-button">Read more</button>
-      </div>
-
-      <!-- </article> -->
-
+        <div class="primary-paragraph-button-box">
+          <p class="primary-paragraph">
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?
+          </p>
+          <p class="primary-paragraph-hidden">
+            We take a look at what that means.
+          </p>
+          <button class="read-more-button">Read more</button>
+        </div>
+      </section>
       <section class="new-articles-box">
         <h2 class="new-header">New</h2>
-        <article class="new-article-wrapper1">
-          <h3 class="new-article-header">
-            Hydrogen VS Electric Cars
-          </h3>
-          <p class="new-article-paragraph" id="new-article-border-1">
+        <article class="new-article-wrapper">
+          <h3 class="new-article-header">Hydrogen VS Electric Cars</h3>
+          <p class="new-article-paragraph">
             Will hydrogen-fueled cars ever catch up to EVs?
           </p>
         </article>
-        <article class="new-article-wrapper2">
-          <h3 class="new-article-header">
-            The Downsides of AI Artistry
-          </h3>
-          <p class="new-article-paragraph" id="new-article-border-2">
-            What are the possible adverse effects of on-demand AI
-            image generation?
+        <article class="new-article-wrapper">
+          <h3 class="new-article-header">The Downsides of AI Artistry</h3>
+          <p class="new-article-paragraph">
+            What are the possible adverse effects of on-demand AI image
+            generation?
           </p>
         </article>
-        <article class="new-article-wrapper3">
+        <article class="new-article-wrapper">
           <h3 class="new-article-header">Is VC Funding Drying Up?</h3>
           <p class="new-article-paragraph">
-            Private funding by VC firms is down 50% YOY. We take a
-            look at what that means.
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
           </p>
         </article>
       </section>
-      <!-- <section class="articles-row-box"> -->
-      <article class="article1-row">
-        <img
-          src="assets/images/image-retro-pcs.jpg"
-          class="article-row-img"
-        />
-        <section class="article-row-content-wrapper">
-          <p class="article-row-number">01</p>
-          <h3 class="article-row-header">Reviving Retro PCs</h3>
+      <section class="articles-row-wrapper">
+        <article class="article-row">
+          <img
+            src="assets/images/image-retro-pcs.jpg"
+            class="article-row-img"
+            alt="Image representing personal computer in retro style"
+          />
+          <header class="article-row-content-header">
+            <p class="article-row-number">01</p>
+            <h3 class="article-row-header">Reviving Retro PCs</h3>
 
-          <p class="article-row-paragraph">
-            What happens when old PCs are given modern upgrades?
-          </p>
-        </section>
-      </article>
+            <p class="article-row-paragraph">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </header>
+        </article>
 
-      <article class="article2-row">
-        <img
-          src="assets/images/image-top-laptops.jpg"
-          class="article-row-img"
-        />
-        <section class="article-row-content-wrapper">
-          <p class="article-row-number">02</p>
-          <h3 class="article-row-header">Top 10 Laptops of 2022</h3>
-          <p class="article-row-paragraph">
-            Our best picks for various needs and budgets.
-          </p>
-        </section>
-      </article>
+        <article class="article-row">
+          <img
+            src="assets/images/image-top-laptops.jpg"
+            class="article-row-img"
+            alt="image representing keyboard with red highlights"
+          />
+          <header class="article-row-content-header">
+            <p class="article-row-number">02</p>
+            <h3 class="article-row-header">Top 10 Laptops of 2022</h3>
+            <p class="article-row-paragraph">
+              Our best picks for various needs and budgets.
+            </p>
+          </header>
+        </article>
 
-      <article class="article3-row">
-        <img
-          src="assets/images/image-gaming-growth.jpg"
-          class="article-row-img"
-        />
-        <section class="article-row-content-wrapper">
-          <p class="article-row-number">03</p>
-          <h3 class="article-row-header">The Growth of Gaming</h3>
-          <p class="article-row-paragraph">
-            How the pandemic has sparked fresh opportunities.
-          </p>
-        </section>
-      </article>
-      <!-- </section> -->
+        <article class="article-row">
+          <img
+            src="assets/images/image-gaming-growth.jpg"
+            class="article-row-img"
+            alt="Image representing Playstation pad vertically placed in the air with open palm below it"
+          />
+          <section class="article-row-content-header">
+            <p class="article-row-number">03</p>
+            <h3 class="article-row-header">The Growth of Gaming</h3>
+            <p class="article-row-paragraph">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </section>
+        </article>
+      </section>
     </main>
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
-      <a
-        href="https://www.frontendmentor.io?ref=challenge"
-        target="_blank"
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by
-      <a href="https://github.com/KrystianWebDev">Krystian Szydlik</a
-      >.
-    </div>
+      <a href="https://github.com/KrystianWebDev">Krystian Szydlik</a>.
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>

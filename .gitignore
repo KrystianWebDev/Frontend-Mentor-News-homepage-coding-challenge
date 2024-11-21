@@ -1,4 +1,5 @@
-# Avoid accidental upload of the Sketch and Figma design files
+
+.# Avoid accidental upload of the Sketch and Figma design files
 #####################################################
 ## Please do not remove lines 5 and 6 - thanks! 🙂 ##
 #####################################################
@@ -17,6 +18,5 @@
 design/
 dist/
 *.md
-assets/fonts
 news-homepage-main-workspace.code-workspace
 .parcel-cache
